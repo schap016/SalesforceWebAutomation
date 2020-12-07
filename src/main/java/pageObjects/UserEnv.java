@@ -39,7 +39,6 @@ public class UserEnv {
 		
 		if(element.isDisplayed()) {
 			
-			//logger.info(".....++++element is displayed");
 			return true;
 		}
 		
