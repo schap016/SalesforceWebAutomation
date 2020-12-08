@@ -15,7 +15,7 @@ public class DataFile {
 	
 	
 	 public static void createSuiteAndDataMap(List<XmlSuite> suites, Map<String,List<String>> data, Map<String, String> users) {
-		 String filePath = "C:\\Users\\saman\\OneDrive\\Documents\\SmokeObservations.xlsx";
+		 String filePath = "C:\\SmokeObservations.xlsx";
 			List<String> classNamesTestNames = new ArrayList<String>();
 			classNamesTestNames = GetData.getClassNamesTestNames("TestNames", "ClassName", filePath);
 			
