@@ -17,7 +17,7 @@ public class SetUp {
 		
 		this.driver = driver;
 		final String PROJECT_PATH = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\saman\\Downloads\\WebAutomationTestNg-master\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		driver.get(gv.URL);
